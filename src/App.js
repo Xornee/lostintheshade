@@ -155,7 +155,7 @@ function App() {
       totalCostWei = String(cost * mintAmount);
     }
     
-    let totalGasLimit = String(gasLimit * mintAmount * 0.2);
+    let totalGasLimit = String(gasLimit * ( mintAmount * 0.3));
     console.log("Cost: ", totalCostWei);
     console.log("Gas limit: ", totalGasLimit);
     setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
