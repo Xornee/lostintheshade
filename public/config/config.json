@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0xdda15f68914c1ad1dd02370acc435b516c049641",
-  "SCAN_LINK": "https://etherscan.io/address/0xdda15f68914c1ad1dd02370acc435b516c049641",
+  "CONTRACT_ADDRESS": "0x772ce560C77708172D1cB4d7B5233C460302C60d",
+  "SCAN_LINK": "https://etherscan.io/address/0x772ce560C77708172D1cB4d7B5233C460302C60d",
   "NETWORK": {
     "NAME": "Ethereum",
     "SYMBOL": "ETH",
     "ID": 1
   },
-  "NFT_NAME": "Villagers.WYF",
-  "SYMBOL": "WLF",
-  "MAX_SUPPLY": 3333,
-  "WEI_COST": 3000000000000000,
-  "DISPLAY_COST": 0.003,
+  "NFT_NAME": "Lost In The Shade",
+  "SYMBOL": "LiTS",
+  "MAX_SUPPLY": 999,
+  "WEI_COST": 10000000000000000,
+  "DISPLAY_COST": 0.01,
   "GAS_LIMIT": 120000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/Wulftown.wtf",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/lostintheshade",
   "SHOW_BACKGROUND": true
 }

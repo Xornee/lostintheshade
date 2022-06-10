@@ -358,13 +358,6 @@ function App() {
                   </>
                 )}
                     <s.SpacerSmall />
-                <s.Container flex={'1'} jc={"center"} ai={"center"} style={{ width: "70%" }} fd={"row"}>
-                  <GeneralText style={{ color: "grey", textAlign: "center" }}
-                  >
-                    Supply:999
-                  </GeneralText>
-
-                </s.Container>
                     <s.SpacerSmall />
               </>
               
