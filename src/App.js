@@ -374,8 +374,8 @@ function App() {
         <s.SpacerSmall />
         <s.Container flex={'1'} jc={"center"} ai={"center"} style={{ width: "70%", marginTop: "180px" }} fd={"row"}>
           <Icons href="https://twitter.com/LostInTheShade" class="black-icon" target="_blank"><img style={{ height: 35 }} src="/config/images/twitter.png" alt="twitter icon" class="twitter-icon"></img></Icons>
-          <Icons href="" class="black-icon"><img style={{ height: 50 }} src="/config/images/opensea.png" alt="opensea icon" class="opensea"></img></Icons>
-          <Icons href="" class="black-icon"><img style={{ height: 40}} src="/config/images/ethereum.png" alt="ethereum icon" class="ethereum-icon"></img></Icons>
+          <Icons href="https://opensea.io/collection/lost-in-the-shade" class="black-icon"><img style={{ height: 50 }} src="/config/images/opensea.png" alt="opensea icon" class="opensea"></img></Icons>
+          <Icons href="https://etherscan.io/address/0x772ce560C77708172D1cB4d7B5233C460302C60d#code" class="black-icon"><img style={{ height: 40}} src="/config/images/ethereum.png" alt="ethereum icon" class="ethereum-icon"></img></Icons>
         </s.Container>
       </MainWrapper>
       <PlayAudio>
