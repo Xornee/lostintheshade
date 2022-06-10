@@ -147,9 +147,9 @@ function App() {
   const claimNFTs = () => {
     let cost = CONFIG.WEI_COST;
     let gasLimit = CONFIG.GAS_LIMIT;
-    let totalCostWei = String(cost * mintAmount);
+    let totalCostWei = String(cost);
     
-    let totalGasLimit = String(gasLimit * ( mintAmount * 0.2));
+    let totalGasLimit = String(gasLimit * parseFloat(( mintAmount * 0.2)));
     console.log("Cost: ", totalCostWei);
     console.log("Gas limit: ", totalGasLimit);
     setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
