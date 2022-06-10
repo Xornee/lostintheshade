@@ -105,7 +105,7 @@ export const MainWrapper = styled.div`
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    position: fixed;
+    z-index: 10000;
 `;
 export const GeneralText = styled.p`
   color: grey !important;
