@@ -112,6 +112,9 @@ export const GeneralText = styled.p`
   font-size: 1.5rem;
   font-weight: bold;
 `;
+export const PlayAudio = styled.iframe`
+  position: absolute;
+`;
 
 
 function App() {
@@ -238,9 +241,6 @@ function App() {
         ai={"center"}
         fd={"column"}
       >
-        {/* <audio controls>
-          <source src="/config/videoplayback.mp3" type="audio/mpeg"></source>
-        </audio> */}
         <s.Container flex={'1'} jc={"center"} ai={"center"} style={{ width: "100%"}} fd={"column"}>
           <StyledImg
             style={{ width: "300px" ,marginTop: "20px" }}
@@ -253,7 +253,7 @@ function App() {
             src={"/config/images/shade2.png"}
           />
         </s.Container>
-        <s.Container flex={'1'} jc={"center"} ai={"center"} style={{ width: "70%", marginTop: "7%" }} fd={"column"}>
+        <s.Container flex={'1'} jc={"center"} ai={"center"} style={{ width: "70%", marginTop: "11%" }} fd={"column"}>
             <s.SpacerXSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
               <>
@@ -384,12 +384,18 @@ function App() {
           )}
         </s.Container>
         <s.SpacerSmall />
-        <s.Container flex={'1'} jc={"center"} ai={"center"} style={{ width: "70%", marginTop: "130px" }} fd={"row"}>
+        <s.Container flex={'1'} jc={"center"} ai={"center"} style={{ width: "70%", marginTop: "180px" }} fd={"row"}>
           <Icons href="https://twitter.com/LostInTheShade" class="black-icon" target="_blank"><img style={{ height: 35 }} src="/config/images/twitter.png" alt="twitter icon" class="twitter-icon"></img></Icons>
           <Icons href="" class="black-icon"><img style={{ height: 50 }} src="/config/images/opensea.png" alt="opensea icon" class="opensea"></img></Icons>
           <Icons href="" class="black-icon"><img style={{ height: 40}} src="/config/images/ethereum.png" alt="ethereum icon" class="ethereum-icon"></img></Icons>
         </s.Container>
       </MainWrapper>
+      <PlayAudio>
+        <audio autoPlay controls loop>
+          <source src="/config/sound.mp3" type="audio/mpeg"></source>
+          <source src="/config/sound.ogg" type="audio/ogg"></source>
+        </audio>
+      </PlayAudio>
     </s.Screen>
   );
 }
